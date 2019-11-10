@@ -14,7 +14,7 @@ Our solution is Cognito—an application that alerts users if their laptops are 
 The application was written in Java using Eclipse and Maven. We used [Webcam Capture API](https://github.com/sarxos/webcam-capture) to access the laptop webcam and [OpenIMAJ](http://openimaj.org/) to initially detect faces. Then, using Microsoft Cognitive Services ([Face API](https://azure.microsoft.com/en-us/services/cognitive-services/face/)), we compare all of the faces in frame to the user's stored face. Finally, if an intruder is detected, we integrated with [Twilio](https://www.twilio.com/) to send an SMS message to the user's phone.
 
 ## Challenges we ran into
-Some members' adversity to sleep deprivation. The cold (one of our group members is from the tropics).
+From adversity to sleep deprivation. The cold (one of our group members is from the tropics).
 On a more serious note, this was many of our first times participating in a Hackathon or working on integrating APIs. A significant portion of the time was spent choosing and learning to use the APIs. Even after that, bug fixing on the individual components took a substantial chunk of time.
 
 ## Accomplishments that we're proud of
