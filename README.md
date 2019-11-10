@@ -29,7 +29,8 @@ Things we'd like to do:
 - Provide more choice regarding actions triggered by detection of an unauthorized user (e.g. sending a photo of the malicious user to the main user, disabling mouse & keyboard, turning off screen, system shutdown altogether).
 - Develop a clean and more user-friendly UI.
 
-### Note
-Be sure to set the user environment variables `AZURE_SUBSCRIPTION_KEY`, `TWILIO_ACCOUNT_ID`, and `TWILIO_AUTH_TOKEN`, which correspond to your Microsoft Azure subscription key, your Twilio account id, and your Twilio authentication token. This allows you to link up your Azure and Twilio accounts with Cognito and allows for full functionality.
+### Notes
+- Be sure to set the user environment variables `AZURE_SUBSCRIPTION_KEY`, `TWILIO_ACCOUNT_ID`, and `TWILIO_AUTH_TOKEN`, which correspond to your Microsoft Azure subscription key, your Twilio account id, and your Twilio authentication token. This allows you to link up your Azure and Twilio accounts with Cognito and allows for full functionality.
+- After running the program and initizializing the stored face, the program will continue to run in the background indefinitely. In order to stop the program, you will need to open up Task Manager and end the task titled `Java(TM) Platform SE Binary`.
 
 [Link to devpost](https://devpost.com/software/cognito)
