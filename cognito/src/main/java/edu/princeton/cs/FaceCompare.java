@@ -23,7 +23,7 @@ public class FaceCompare {
     private static final String uriVerifyBase =
         "https://mytestproject.cognitiveservices.azure.com/face/v1.0/verify";
 
-    private static String userFaceID;
+    private String userFaceID;
 
     public FaceCompare(String userFacePath) {
     	HttpClient httpclient = HttpClientBuilder.create().build();
